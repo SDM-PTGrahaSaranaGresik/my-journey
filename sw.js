@@ -1,4 +1,4 @@
-const CACHE='my-journey-ios-glass-v4';
+const CACHE='my-journey-soft-pink-v5';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));
