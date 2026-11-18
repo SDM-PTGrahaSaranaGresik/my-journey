@@ -88,6 +88,7 @@
     .side-note{line-height:1.65}
     @supports not ((backdrop-filter:blur(10px)) or (-webkit-backdrop-filter:blur(10px))){.sidebar,.card,.hero,.lock-box,.mobile-nav,.top-right button,.insight,.settings-group{background:rgba(255,250,255,.9)}}
 
+      .hero h1{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;font-weight:600;letter-spacing:-.045em;line-height:1.13;font-size:clamp(38px,5vw,58px)}
   </style>
 </head>
 <body>
@@ -116,7 +117,7 @@
   <main class="content">
     <div class="topbar"><span id="dateLabel" class="date-label"></span><div class="top-right"><button id="settingsBtn" aria-label="Pengaturan">⚙ <span class="settings-label">Pengaturan</span></button><button id="lockBtn" aria-label="Kunci diary">♡ Kunci</button></div></div>
     <section id="homePage" class="page active" aria-label="Beranda">
-      <div class="hero"><div class="hero-body"><div class="eyebrow">MY JOURNEY ♡</div><h1>Soft space, soft heart.</h1><p class="lead">Tulis seperlunya. Tenang pelan-pelan.</p><div class="hero-actions"><button class="btn primary" data-go="journal">✎ Tulis</button><button class="btn light" data-go="chat">♡ Curhat</button></div></div></div>
+      <div class="hero"><div class="hero-body"><div class="eyebrow">MY JOURNEY ♡</div><h1>Hi, Ifta</h1><p class="lead">Tulis seperlunya. Tenang pelan-pelan.</p><div class="hero-actions"><button class="btn primary" data-go="journal">✎ Tulis</button><button class="btn light" data-go="chat">♡ Curhat</button></div></div></div>
       <div class="section-block"><div class="section-title"><h3>Hari ini rasanya...</h3><span>Pilih saja</span></div><div id="homeMood" class="card"><div class="mood-strip" id="homeMoodOptions"></div><p class="hint" style="margin-top:15px">Semua perasaan boleh hadir. ♡</p><button class="btn small ghost" data-go="journal">Lanjut ke jurnal →</button></div></div>
       <div class="grid-two section-block"><div class="card"><div class="overline">PENGINGAT HARI INI</div><div class="quote">“Pikiranku boleh ramai, tetapi aku tidak harus mengikuti semuanya.”</div><p class="hint" style="margin-top:16px">Bedakan yang benar-benar terjadi dari yang hanya kamu khawatirkan.</p></div>
         <div class="card soft-card"><div class="overline" style="color:#74907b">1 MINUTE PAUSE</div><h3 style="margin-bottom:4px">Tarik napas dulu</h3><div id="breathCircle" class="breath">Tarik</div><div id="breathCaption" class="breath-caption">Luangkan waktu untuk dirimu.</div><div style="text-align:center;margin-top:13px"><button id="breathBtn" class="btn small light">Mulai latihan</button></div></div></div>
